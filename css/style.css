@@ -1,0 +1,133 @@
+.gradient-background {
+  background: linear-gradient(300deg, #B71375, #FC4F00, #F79540);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease-in-out infinite ;
+  margin: 0 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.gradient-footer{
+  background: linear-gradient(300deg, #B71375, #FC4F00, #F79540);
+  background-size: 180% 200%;
+  animation: gradient-animation 18s ease-in-out infinite ;
+  margin: 0 0 0 0;
+  display: flex;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+
+.title-head{
+  font-size: 3rem;
+  justify-items: start;
+}
+
+.title-content{
+  padding-top: 5%;
+  padding-bottom: 0 !important;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.image-container{
+  display: flex;
+  justify-content: center;
+}
+
+.dwn{
+  width: 160px !important;
+  height: 50px !important;
+}
+
+.btn-container{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-content h1{
+  color: white !important;
+}
+
+.feature-content{
+  display: flex;
+  justify-content: center;
+}
+
+.dog-image{
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+.dog-name{
+  font-size: 1.3rem;
+  font-weight: 200;
+
+}
+
+.chih-btn{
+  border: solid 1px black;
+  color: black;
+}
+
+.mastiff-btn{
+  background-color: black;
+  border: solid 1px black;
+}
+
+.lab-btn{
+  background-color: black;
+  border: solid 2px black;
+}
+
+.comp-img{
+  width: 200px;
+}
+
+.mastiff{
+  background-color: black !important;
+  border: solid 1px black !important;
+}
+
+.mastiff-main{
+  border: solid 1px black !important;
+}
+
+.tnw{
+  width: 100px;
+}
+
+.appstore{
+  background-color: black;
+  border: solid 2px black;
+}
+
+.playstore{
+  border: solid 1px black;
+  color: black;
+  font-weight: bold;
+}
